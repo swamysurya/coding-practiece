@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.liContainer {
+  border-style: solid;
+  width: 45%;
+  margin: 5px;
+  padding: 0px 10px;
+  flex-grow: 1;
+  border-radius: 10px;
+  background-color: #ffffff33;
+  border-color: #ffffff;
+}
+.imageIcon {
+  object-fit: contain;
+  height: 100%;
+  width: 30%;
+}
+.linkStyle {
+  text-decoration: none;
+}
+.cardDetails {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  height: 120px;
+}
+.teamName {
+  font-size: 16px;
+}
+@media screen and (min-width: 768px) {
+  .teamName {
+    font-size: 32px;
+  }
+}

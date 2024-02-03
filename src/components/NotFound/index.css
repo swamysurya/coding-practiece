@@ -1,0 +1,12 @@
+/* Write your CSS here */
+.bgnot {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  font-family: "Bree serif";
+  color: #ffffff;
+}

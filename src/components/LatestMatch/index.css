@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.latestMatchContainer {
+  background-color: #1e293b;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.leftDetailsAndImage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.competingTeamLogo {
+  width: 100px;
+}
+@media screen and (min-width: 768px) {
+  .competingTeamLogo {
+    width: 150px;
+  }
+  .leftCardDetails {
+    width: 40%;
+  }
+}
+.latestMatchCardContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.rightCardInfo {
+  text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+  .latestMatchCardContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .leftDetailsAndImage {
+    width: 60%;
+  }
+  .rightCardInfo {
+    width: 40%;
+    text-align: right;
+  }
+}
+.opponentTeamName {
+  font-size: 24px;
+}
+.datestyle {
+  font-size: 22px;
+}
+.med {
+  font-size: 22px;
+}
